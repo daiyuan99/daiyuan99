@@ -1,20 +1,15 @@
 #Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+This project(s) will provide you with basic statistics of Twitter sample tweets via its Sample Streaming API.
 
 #Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+1. Download source code and compile
+2. Make TweetsTrendReport project the startup project
+3. Open appsettings.json and update its apiKey, KeySecret and BearToken. You need to setup Twitter Developer account to get those credentials.
 
 #Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+Run the Web App. The home page will have some buttons to allow you to start/stop the stream, show tweet trend with total number of tweets received so far and top 10 Hasgtags.
+
+You also can check the most recent tweet received and last error if something goes wrong.
 
 #Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://www.visualstudio.com/en-us/docs/git/create-a-readme). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+More unit and integration tests will be better. 
