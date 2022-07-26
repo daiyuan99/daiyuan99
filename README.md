@@ -2,7 +2,7 @@
 This project(s) will provide you with basic statistics of Twitter sample tweets via its Sample Streaming API.
 
 #Getting Started
-1. Download source code and compile
+1. Download source code and compile with VS2022. It'll download and install nuget package TweetIniv 5.04
 2. Make TweetsTrendReport project the startup project
 3. Open appsettings.json and update its apiKey, KeySecret and BearToken. You need to setup Twitter Developer account to get those credentials.
 
