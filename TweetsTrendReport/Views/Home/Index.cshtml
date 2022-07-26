@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to Tweet Trend Dashboard!</h1>
+   
+</div>
+<div class="text-center"> 
+    <nav>
+        <button onclick="StartStream()">Start Stream(wait for 5 sec after click)</button>
+        <button onclick="StopStream()">Stop Twitter Sampling Stream</button>
+        <button onclick="ShowTweetTrend()">Show Tweets Trend!</button>
+        <button onclick="ShowLastError()">Check Last Error</button>
+        <button onclick="ShowLastTweet()">Show Last Tweet's Text</button>
+    </nav>
+</div>
+
+<h1></h1>
+<div class="text-center">
+    <p id="myMessageBoard">
+        There is no message to show.
+    </p>
+
+</div>
